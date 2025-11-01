@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forsqa Holdings LLC - Consumer Services & Consulting</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -1px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        /* Main Content */
+        main {
+            background: white;
+            margin: 2rem 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: #6c757d;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* About Section */
+        .about {
+            padding: 4rem 2rem;
+        }
+
+        .about h2 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .about-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        /* Services Grid */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .service-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+
+        .service-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: #2c3e50;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-info {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-email {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .contact-email:hover {
+            background: #2980b9;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a252f;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .footer-content {
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 2rem;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .about, .hero, .contact {
+                padding: 3rem 1rem;
+            }
+
+            .services {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Forsqa Holdings LLC</div>
+            <div class="tagline">Professional Services Excellence</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Consumer Services & Consulting</h1>
+                <p>Delivering strategic solutions and exceptional service to help businesses and consumers achieve their goals</p>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2>About Forsqa Holdings LLC</h2>
+                <div class="about-content">
+                    <p>Forsqa Holdings LLC is a professional services company dedicated to providing comprehensive consumer services and strategic consulting solutions. We work with businesses and individuals to deliver tailored approaches that drive growth, efficiency, and success.</p>
+                    
+                    <p>Our team combines industry expertise with innovative thinking to help our clients navigate complex challenges and capitalize on emerging opportunities in today's dynamic marketplace.</p>
+
+                    <div class="services">
+                        <div class="service-card">
+                            <h3>Consumer Services</h3>
+                            <p>Comprehensive support services designed to enhance customer experience and satisfaction across various industries and sectors.</p>
+                        </div>
+                        <div class="service-card">
+                            <h3>Strategic Consulting</h3>
+                            <p>Expert guidance and strategic planning to help businesses optimize operations, improve performance, and achieve sustainable growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-info">
+                    <p>Ready to discuss how we can help your business succeed?</p>
+                </div>
+                <a href="mailto:info@forsqaholding.com" class="contact-email">info@forsqaholding.com</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Forsqa Holdings LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
